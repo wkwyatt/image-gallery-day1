@@ -11,7 +11,10 @@ h1 {
 }
 .thumbnails {
 	text-align: center;
-	margin-bottom: 20px;
+	margin:20px;
+}
+.thumbnails > div {
+	display: inline-block;
 }
 .thumbnails img {
 	height:80px;
